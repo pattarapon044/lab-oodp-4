@@ -89,7 +89,7 @@ public class MovieProgram {
     	//TODO: 5. print out director of given movie
     	for (Movie movie : movies) {
             if (movie.getName().equals(movieName)) {
-            	System.out.println(movieName + "was directed by " + movie.getDirector());
+            	System.out.println(movieName + " was directed by " + movie.getDirector());
             	return;
             }
         }
